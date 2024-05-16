@@ -125,7 +125,7 @@ body {
 
 
 
-
+/* bottomHeader */
 .bottomHeader {
   display: grid;
   align-items: center;
@@ -147,7 +147,6 @@ body {
   margin-top: 0.5vh;
   font-size: 2rem;
 }
-
 .bottomHeaderButton {
   display: grid;
   height: 5vh;
@@ -156,7 +155,6 @@ body {
   gap: 2vw;
   grid-template-columns: 3fr 3fr 3fr;
 }
-
 .bottomHeaderButton button {
   font-size: 1.5rem;
   font-weight: 600;
@@ -175,4 +173,24 @@ body {
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: #e2e8f0;
+
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: 5fr 5fr;
+  outline: solid black;
+}
+
+.projects {
+  grid-row: 1/3;
+  padding-left: 1vw;
+
+  outline: solid blue;
+} 
+
+.announcements {
+  outline: solid red;
+}
+
+.trending {
+  outline: solid green;
 }
