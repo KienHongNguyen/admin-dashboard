@@ -164,22 +164,15 @@ body {
   background-color: #1992d4;
 }
 
-
-
-
-
 /* Content Container */
 .content {
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: #e2e8f0;
-
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-template-rows: 5fr 5fr;
-  outline: solid black;
 }
-
 
 /* Projects */
 .projects {
@@ -191,8 +184,6 @@ body {
   grid-template-columns: 5fr 5fr;
   grid-template-rows: 3fr 3fr 3fr;
   height: 70vh;
-
-  outline: solid blue;
 }
 .pCardC {
   display: grid;
@@ -202,8 +193,6 @@ body {
   height: 20vh;
   background-color: white;
   border-radius: 1rem;
-
-  outline: solid red;
 }
 .pCardTop h2 {
   margin-top: 2vh;
